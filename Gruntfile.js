@@ -15,7 +15,8 @@ module.exports = function(grunt) {
             commitMessage: 'Release %s',
             tagName: '%s',
             tagAnnotation: 'Release %s',
-            buildCommand: false
+            buildCommand: false,
+            'non-interactive': true
         }
     },
     watch: {
