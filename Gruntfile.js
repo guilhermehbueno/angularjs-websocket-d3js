@@ -9,6 +9,9 @@ module.exports = function(grunt) {
         }
       }
     },
+    
+    
+    
     'release-it': {
         options: {
             pkgFiles: ['package.json'],
